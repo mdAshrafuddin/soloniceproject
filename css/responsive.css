@@ -1,0 +1,249 @@
+/* =========================================
+            Bootstrap 4 Media Queries
+============================================ */
+
+/* Extra Large Devices (Desktops & Laptops)*/
+@media (min-width: 1200px) {
+    
+}
+
+/*Large Devices (Desktops & Laptops)*/
+@media (min-width: 960px) and (max-width: 1199px) {
+    
+    #services-01 img {
+        margin: 60px 0;
+        width: 350px;
+    }
+    .service .icon {
+        font-size: 36px;
+        margin: -6px 0px 0px -3px;
+        -webkit-transition: all 400ms linear;
+        transition: all 400ms linear;
+    }
+    .service-tab h3 {
+        font-size: 24px;
+        margin-bottom: 22px;
+    }
+    .service-tab img {
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .service-tab h3 {
+        font-size: 24px;
+        margin-bottom: 22px;
+    }
+    .office h4 {
+        font-size: 22px;
+    }
+}
+/*Medium Devices (Desktops & Laptops)*/
+@media (min-width: 768px) and (max-width: 959px) {
+    /*service*/
+    #services-01 img {
+        margin: 170px 0;
+        width: 100%;
+    }
+    .service .icon {
+        font-size: 36px;
+        margin: -6px 0px 0px -3px;
+        -webkit-transition: all 400ms linear;
+        transition: all 400ms linear;
+    }
+    .service-tab .tab-bg {
+        background: #fff;
+        padding: 10px 30px;
+        min-height: 470px;
+    }
+    .service-tab img {
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .horizontal-heading h2, .vertical-heading h2 {
+        font-size: 33px;
+        font-weight: 100;
+        line-height: 45px;
+    }
+    .office h4 {
+        font-size: 22px;
+    }
+    .office ul.office-details li {
+        font-family: "Open Sans", sans-serif;
+        margin-top: 12px;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        font-size: 14px;
+    }
+    .office ul.office-details li svg {
+        font-size: 18px;
+        width: 36px;
+        margin-left: -14px;
+    }
+
+    .blog-post h4 {
+        line-height: 40px;
+        margin: 0;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    /*pricing*/
+    .pricing-table .price h2 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 26px;
+        font-weight: 100;
+        margin: 0 0 0 24px;
+        position: relative;
+    }
+    #tech-statement h3 {
+        color: #fff;
+        font-size: 21px;
+        line-height: 45px;
+    }    
+    #home-heading h1 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 100;
+        text-transform: uppercase;
+        margin: 0;
+        display: inline-block;
+    }
+    #home-text p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 100;
+        margin: 8px 0 30px 0;
+    }
+    .pricing-table .btn-yellow, .pricing-table.black .btn-white {
+        width: 96%;
+        font-size: 10px;
+    }   
+    .service-tab h3 {
+        font-size: 27px;
+        margin-bottom: 18px;
+    }
+    .service-tab h2 {
+        font-size: 48px;
+        color: #bbb;
+        margin-bottom: 12px;
+        font-weight: 100;
+    }
+}
+
+/*Small Devices (Desktops & Laptops)*/
+@media (max-width: 767px) {
+    
+    #home-heading h1 {
+        color: red;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    #about-bottom img {
+    margin: 0 auto;
+    width: 560px;
+    }
+    .about-item {
+        background-color: #fff;
+        padding: 50px 30px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    }
+    #tech-statement h3 {
+        color: #fff;
+        font-size: 15px;
+        line-height: 45px;
+    }
+    #services-01 img {
+        margin: 60px 0;
+        width: 200px;
+    }
+    .service .icon {
+        font-size: 30px;
+        margin: -5px 0px 0px -7px;
+        -webkit-transition: all 400ms linear;
+        transition: all 400ms linear;
+    }
+    .service h4 {
+        font-size: 19px;
+        margin: 0 0 8px 0;
+    }
+    .horizontal-heading h2, .vertical-heading h2 {
+        font-size: 23px;
+        font-weight: 100;
+        line-height: 45px;
+        font-weight: 500;
+    }
+    .pricing-table .price p {
+        line-height: normal;
+        font-weight: 200;
+        margin: 0px 0px 0px -80px;
+        padding: 0;
+    }
+    #services-01 img {
+        margin: -70px 0;
+        width: 500px;
+    }
+    .service {
+        margin: 110px 0;
+    }
+    #blog-btn .btn-yellow {
+        padding: 12px 16px 12px 16px;
+    }
+    .blog-post {
+        margin-bottom: 10px;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 480px) {
+    /* Home */
+    #home-heading h1 {
+        font-size: 18px;
+    }
+    #home-text p {
+        font-size: 11px;
+        line-height: 16px;
+        margin: 8px 10px 25px 10px;
+    }
+    /* Generic */
+    .vertical-heading h2 {
+        font-size: 22px;
+    }
+    /* Portfolio */
+    #isotope-filters {
+        text-align: center;
+    }
+    #isotope-filters button {
+        font-size: 10px;
+        padding-right: 14px;
+    }
+    /* Testimonials */
+    .testimonial h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .testimonial .stars {
+        font-size: 13px;
+    }
+    /*about*/
+    .about-item {
+        margin-bottom: 18px;
+    }
+    button.navbar-toggler {
+        margin-left: 26px;
+    }
+}
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 320px) {
+    /* Testimonials */
+    .testimonial h3 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .testimonial .stars {
+        font-size: 10px;
+    }
+}
